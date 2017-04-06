@@ -8,14 +8,13 @@
 
 #import "MGAlertView.h"
 
+@interface MGAlertView ()
+
+@property (nonatomic, strong) NSMutableArray *p_showQueue;
+
+@end
+
 @implementation MGAlertView
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
-}
-*/
 
 @end
